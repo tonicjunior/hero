@@ -14,8 +14,8 @@ Para executar o jogo localmente, siga estes passos:
 
 1. Clone o repositório:
     ```bash
-    git clone https://seu-url-do-repositorio.git
-    cd seu-diretorio-do-jogo
+    git clone https://github.com/tonicjunior/hero.git
+    cd hero
     ```
 
 2. Instale as dependências (se aplicável):
