@@ -32,29 +32,12 @@ Para executar o jogo localmente, siga estes passos:
 - **Interação com o Mouse**: Clique para crescer o mastro e navegar pelas plataformas.
 - **Botões Responsivos**: Efeitos de hover nos botões para melhor interação do usuário.
 
-### Opções do Jogo
-O jogo inclui várias opções personalizáveis:
-- **platformGapRange**: Define a distância entre as plataformas.
-- **platformWidthRange**: Define a largura das plataformas.
-- **playerWidth** e **playerHeight**: Dimensões do personagem jogador.
-
-## Estados do Jogo
-O jogo opera em vários estados:
-- **IDLE**: O estado inicial quando nenhuma ação é tomada.
-- **WAITING**: Quando está aguardando a entrada do jogador.
-- **GROWING**: Quando o jogador está crescendo o mastro.
-- **WALKING**: Quando o jogador está se movendo pelas plataformas.
-
 ## Recursos Utilizados
 Os seguintes recursos são utilizados no jogo:
 - Imagens para fundos, personagens e plataformas.
 - Arquivos de áudio para música de fundo e efeitos sonoros.
 
 ## Notas de Desenvolvimento
-
-### Funções Principais
-- **sleep(miliseconds)**: Pausa a execução por uma duração especificada.
-- **pause(miliseconds)**: Semelhante ao `sleep`, usada para temporização de eventos no jogo.
 
 ### Gerenciamento de Cenas
 O jogo consiste em várias cenas:
